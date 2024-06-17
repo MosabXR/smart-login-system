@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Project</title>
+</head>
+
+<body>
+  <main>
+    <section class="py-5">
+      <div class="container w-50 py-3 shadow-lg">
+        <h1 class="h2 text-center mb-3">Smart Login System</h1>
+        <!-- <form id="signUpForm"> -->
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="nameField" placeholder="Username must be atleast 3 characters">
+            <label for="nameField">Enter your name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="emailField" placeholder="example@domain.com">
+            <label for="emailField">Enter your email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="passwordField" placeholder="Password must contain atleast 8 characters">
+            <label for="passwordField">Enter password</label>
+          </div>
+          <button class="btn btn-primary w-100 mb-3" type="submit" id="signUpBtn">Sign Up</button>
+          <p class="text-center">Don’t have an account? <a href="index.html">Sign In</a></p>
+        <!-- </form> -->
+      </div>
+    </section>
+  </main>
+  <script src="js/common.js"></script>
+  <script src="js/signup.js"></script>
+</body>
+
+</html>
